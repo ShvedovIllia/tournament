@@ -9,14 +9,8 @@
   "jsRules": {},
   "rules": {
     "jsx-no-lambda": false,
-    "interface-name": [
-      true,
-      "always-prefix"
-    ],
-    "object-curly-spacing": [
-      true,
-      "always"
-    ],
+    "interface-name": [true, "always-prefix"],
+    "object-curly-spacing": [true, "always"],
     "no-floating-promises": false
   },
   "rulesDirectory": []
