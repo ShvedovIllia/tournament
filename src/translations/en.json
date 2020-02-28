@@ -1,0 +1,10 @@
+{
+  "navigation_container": {
+    "main": "Home",
+    "settings": "Settings",
+    "statistic": "Statistic",
+    "calendar": "Calendar",
+    "messages": "Messages",
+    "competitions": "Competitions"
+  }
+}
