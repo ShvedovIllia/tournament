@@ -1,21 +1,33 @@
 import React from 'react';
-import {styled} from "../../styles";
+import {styled} from "styles";
+import {i18nService} from "services";
+import {SearchIcon} from "components/Icon";
+
 
 const Input = styled.input`
-   height: 23px;
    padding: 10px;
-    border: solid 1px ${({ theme }) => theme.color.white};
+    border: solid 1px ${({theme}) => theme.color.white};
     border-radius: 10px;
   background-color: transparent;
-  color: ${({ theme }) => theme.color.white};
+  color: ${({theme}) => theme.color.white};
     &:focus {
-    border: solid 1px ${({ theme }) => theme.color.primary};
+    border: solid 1px ${({theme}) => theme.color.primary};
   }
     margin-left: 10px;
 `;
 
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+`;
+
 export const SearchInput: React.FC = () => {
+  const t = i18nService.t('common');
   return (
-    <Input placeholder='Search'/>
-    )
+    <Row>
+      <Input placeholder={t('search')}/>
+      <SearchIcon/>
+    </Row>
+  )
 };

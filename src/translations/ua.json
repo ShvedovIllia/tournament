@@ -6,5 +6,8 @@
     "calendar": "Календар",
     "messages": "Повідомлення",
     "competitions": "Турніри"
+  },
+  "common": {
+    "search": "Пошук"
   }
 }

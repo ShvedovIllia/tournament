@@ -4,6 +4,7 @@ export interface ITheme {
   color: {
     backgroundPrimary: string;
     backgroundSecondary: string;
+    textColor: string;
     error: string;
     primary: string;
     secondary: string;
@@ -16,6 +17,7 @@ export const theme: ITheme = {
     backgroundPrimary: colors.mineShaft,
     backgroundSecondary: colors.codGrey,
     error: colors.red,
+    textColor: colors.silver,
     primary: colors.aqua,
     secondary: colors.electricViolet,
     white: colors.white,

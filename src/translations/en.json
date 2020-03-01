@@ -6,5 +6,8 @@
     "calendar": "Calendar",
     "messages": "Messages",
     "competitions": "Competitions"
+  },
+  "common": {
+    "search": "Search"
   }
 }

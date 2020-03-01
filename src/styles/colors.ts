@@ -7,6 +7,7 @@ export interface IColors {
   electricViolet: string;
   mineShaft: string;
   red: string;
+  silver: string;
   white: string;
 }
 
@@ -16,7 +17,9 @@ export const colors: IColors = {
   electricViolet: '#8200EB',
   mineShaft: '#2B2B2B',
   red: '#FA0800',
+  silver: '#C5C5C5',
   white: '#FFFFFF',
+
 };
 
 type IColorsMap = {[color in keyof IColors]: Color};
