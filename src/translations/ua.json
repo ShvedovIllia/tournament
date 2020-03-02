@@ -1,3 +1,15 @@
 {
-  "json": "test"
+  "navigation_container": {
+    "main": "Головна",
+    "settings": "Налаштування",
+    "statistic": "Статистика",
+    "calendar": "Календар",
+    "messages": "Повідомлення",
+    "competitions": "Турніри"
+  },
+  "common": {
+    "search": "Пошук",
+    "sign_up": "Реєстрація",
+    "log_in": "Увійти"
+  }
 }

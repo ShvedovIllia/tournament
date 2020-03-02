@@ -1,5 +1,5 @@
-import { createBrowserHistory } from 'history';
-import { applyMiddleware, createStore } from 'redux';
+import {createBrowserHistory} from 'history';
+import {applyMiddleware, createStore} from 'redux';
 
 import middleware from './middleware';
 import rootReducer from './rootReducer';
@@ -12,3 +12,4 @@ const middlewares = middleware(history);
 const store = createStore(rootReducers, applyMiddleware(...middlewares));
 
 export default store;
+export * from './types';

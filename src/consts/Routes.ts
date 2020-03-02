@@ -1,5 +1,10 @@
 export enum RouteConst {
-    GREETING = '/',
-    AUTH = '/',
-    HOMEPAGE = '/',
+    GreetingRoute = '/greeting',
+    HomepageRoute = '/',
+    CalendarRoute = '/calendar',
+    MessagesRoute = '/messages',
+    StatisticRoute = '/statistic',
+    CompetitionsRoute = '/competitions',
+    SettingsRoute = '/settings',
+    RootRoute = '/'
 }
