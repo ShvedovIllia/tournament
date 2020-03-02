@@ -8,7 +8,7 @@ import {AuthorizedRoot} from "./AuthorizedRoot";
 const Wrapper = styled.div`
   min-height: 100vh;
   width: 100%;
-  background-color: ${({ theme }) => theme.color.backgroundPrimary};
+  background-color: ${({ theme }) => theme.color.backgroundSecondary};
 `;
 
 export const Root: React.FC = () => {

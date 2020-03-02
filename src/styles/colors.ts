@@ -19,7 +19,6 @@ export const colors: IColors = {
   red: '#FA0800',
   silver: '#C5C5C5',
   white: '#FFFFFF',
-
 };
 
 type IColorsMap = {[color in keyof IColors]: Color};

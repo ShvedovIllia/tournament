@@ -12,27 +12,37 @@ interface INavMenuItemProps {
 
 const Wrapper = styled.div`
   display: flex;
+  flex-direction: column;
   margin-top: 1vh;
   justify-content: center;
+  align-items: center;
+  
 `;
 
 const Title = styled(H3)`
-  color: ${({ theme }) => theme.color.white}
+  color: ${({theme}) => theme.color.white}
   
     &:hover {
-    color: ${({ theme }) => theme.color.primary}
+    color: ${({theme}) => theme.color.primary}
    }
 `;
 
-export const NavMenuItem: React.FC<INavMenuItemProps> = ({ title, icon, route }) => {
+const IconWrapper = styled.div`
+  width: 50px;
+  height: 50px;
+`;
+
+export const NavMenuItem: React.FC<INavMenuItemProps> = ({title, icon, route}) => {
   return (
-    <Wrapper>
-      {icon}
-      <NavLink to={route}>
+    <NavLink to={route}>
+      <Wrapper>
+        <IconWrapper>
+          {icon}
+        </IconWrapper>
         <Title>
           {title}
         </Title>
-      </NavLink>
-    </Wrapper>
+      </Wrapper>
+    </NavLink>
   )
 };

@@ -8,6 +8,8 @@
     "competitions": "Competitions"
   },
   "common": {
-    "search": "Search"
+    "search": "Search",
+    "sign_up": "Sign up",
+    "log_in": "Login"
   }
 }

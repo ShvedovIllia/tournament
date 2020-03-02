@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Switch} from "react-router-dom";
-import {NavBar} from "../../components";
+import {NavBar} from "components/Menu";
 import {SideNavBar} from "../../components/Menu/SideNavBar";
 import {RouteConst} from "../../consts";
 import {styled} from "../../styles";

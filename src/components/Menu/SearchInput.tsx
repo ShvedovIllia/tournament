@@ -1,8 +1,7 @@
 import React from 'react';
 import {styled} from "styles";
 import {i18nService} from "services";
-import {SearchIcon} from "components/Icon";
-
+import {IconButton, SearchIcon} from "components";
 
 const Input = styled.input`
    padding: 10px;
@@ -27,7 +26,7 @@ export const SearchInput: React.FC = () => {
   return (
     <Row>
       <Input placeholder={t('search')}/>
-      <SearchIcon/>
+      <IconButton icon={<SearchIcon/>}/>
     </Row>
   )
 };
